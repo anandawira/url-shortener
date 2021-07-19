@@ -14,6 +14,7 @@ mongoose.connect(
 	(err) => {
 		if (err) {
 			console.log("Can't connect to database");
+			console.log(err)
 		}
 	},
 );
